@@ -1,0 +1,76 @@
+html, body {
+    font-family: "Inter";
+    margin: 0 0;
+    padding: 0 0;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6943FF;
+    margin:0px;
+}
+
+#title {
+    color: white;
+    font-size: 25px;
+}
+
+#amt {
+    background: 0;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    width: 80px;
+    font-size: 45px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#convert-btn {
+    color: black;
+    background: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+#metrics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+    margin: 0px;
+    background: #F4F4F4;
+}
+
+.metric-item {
+    background: white;
+    padding: 10px;
+    margin: 10px;;
+    width: 90%;
+    border-radius: 5px;;
+}
+
+.metric-title {
+    color: #5A537B;
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.metric-details {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #353535;
+}
